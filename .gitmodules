@@ -1,0 +1,3 @@
+[submodule "vendor/mohicana"]
+  path = vendor/zwr-gem
+  url = git@github.com:djindjic/mohicana.git
