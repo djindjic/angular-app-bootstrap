@@ -1,3 +1,0 @@
-[submodule "vendor/mohicana"]
-	path = vendor/mohicana
-	url = git@github.com:djindjic/mohicana

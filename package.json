@@ -1,6 +1,6 @@
 {
-  "name": "bmw",
-  "repository": "ijeremic/bmw",
+  "name": "angular-app-bootstrap",
+  "repository": "djindjic/angular-app-bootstrap",
   "devDependencies": {
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
@@ -18,7 +18,9 @@
     "karma-sinon": "^1.0.4",
     "mocha": "^2.1.0",
     "promise": "^6.0.1",
-    "sinon": "^1.12.2"
+    "sinon": "^1.12.2",
+    "eslint": "^0.18.0",
+    "eslint-plugin-angular": "0.0.7"
   },
   "jspm": {
     "directories": {

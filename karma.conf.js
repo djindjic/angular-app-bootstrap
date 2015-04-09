@@ -15,7 +15,7 @@ module.exports = function(config) {
     },
 
     proxies: {
-      '/base/jspm_packages/': '/base/www/jspm_packages/'
+      '/base/': '/base/www/'
     },
 
     // list of files / patterns to load in the browser
