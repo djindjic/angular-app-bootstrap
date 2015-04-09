@@ -9,7 +9,7 @@ angular-app-bootstrap
 
 ```bash
 npm install -fg gulp jspm protractor karma-cli
-git@github.com:sportbettingplatform/games.git && cd games
+git clone git@github.com:djindjic/angular-app-bootstrap.git && cd angular-app-bootstrap
 npm install && jspm install
 ```
 
