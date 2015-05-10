@@ -8,9 +8,12 @@ angular-app-bootstrap
 * NodeJS, recommended 0.12.2 on NVM
 
 ```bash
-npm install -fg gulp jspm protractor karma-cli
-git clone git@github.com:djindjic/angular-app-bootstrap.git && cd angular-app-bootstrap
-npm install && jspm install
+sudo apt-get update
+sudo apt-get install openjdk-7-jre
+npm install -fg gulp jspm protractor karma-cli babel
+git clone git@github.com:djindjic/angular-app-bootstrap.git
+cd games angular-app-bootstrap
+npm install && jspm install && webdriver-manager update
 ```
 
 #Run
