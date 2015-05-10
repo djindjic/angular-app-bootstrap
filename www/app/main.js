@@ -7,7 +7,7 @@ import 'app/styles/main.css!';
 
 export default
 angular.
-    module('mohicana-global', [
+    module('angular-app-bootstrap', [
       mainConfigModule.name,
       route1Module.name,
       route2Module.name,
