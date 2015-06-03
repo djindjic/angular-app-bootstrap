@@ -1,5 +1,5 @@
 import angular from 'angular';
-import mocks from 'angular-mocks';
+import 'angular-mocks';
 import echoServiceModule from './echo.service';
 
 describe('echoService', function() {
@@ -12,7 +12,7 @@ describe('echoService', function() {
     });
   });
 
-  it('for passed hello shoud return hello', function() {
+  it('for passed hello should return hello', function() {
     echoService.echo('hello').then(function(echo) {
       expect(echo).to.equal('hello');
     });

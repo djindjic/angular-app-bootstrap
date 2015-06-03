@@ -1,3 +1,5 @@
+/*eslint-disable angular/ng_document_service */
+
 import angular from 'angular';
 import mainModule from './main';
 
