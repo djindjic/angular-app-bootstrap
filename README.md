@@ -23,8 +23,19 @@ npm install && jspm install && webdriver-manager update
 #Run
 Run `gulp` command in repo root folder and open browser to point at `http//localhost:9000`.
 
-#Karma tests
+#Sass compiling
+```bash
+sass:watch
+```
+
+#Unit tests
 
 ```bash
 karma start
+```
+
+#E2E tests
+
+```bash
+protractor protractor.conf.js
 ```

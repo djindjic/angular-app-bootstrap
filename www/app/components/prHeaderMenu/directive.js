@@ -1,5 +1,6 @@
 import angular from 'angular';
-import template from './template.html!text'
+import template from './template.html!text';
+import './style.css!';
 
 export default
   angular.

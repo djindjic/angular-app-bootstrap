@@ -13,7 +13,7 @@ var configuration = {
 
 if(process.env.SHIPPABLE) {
   configuration.capabilities.browserName = 'firefox';
-  configuration.baseUrl = 'http://staging.premierbet.divshot.io/';
+  configuration.baseUrl = 'http://staging.premier.divshot.io/';
   configuration.seleniumAddress = 'http://localhost:4444/wd/hub';
 }
 else {

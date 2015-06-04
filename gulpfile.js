@@ -1,4 +1,4 @@
-var Promise = require('promise'),
+  var Promise = require('promise'),
     gulp    = require('gulp'),
     $       = require('gulp-load-plugins')();
     cachebust = new $.cachebust;
@@ -20,6 +20,16 @@ gulp.task('default',
     startServer();
   }
 );
+
+gulp.task('sass', function () {
+  gulp.src('./www/app/**/*.scss')
+    .pipe($.sass().on('error', $.sass.logError))
+    .pipe(gulp.dest('./www/app'));
+});
+
+gulp.task('sass:watch', function () {
+  gulp.watch('./www/app/**/*.scss', ['sass']);
+});
 
 gulp.task('bust-config', function () {
   return gulp.src('www/config.js')
