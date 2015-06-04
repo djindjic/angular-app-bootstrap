@@ -15,19 +15,23 @@ System.config({
 
 System.config({
   "map": {
-    "angular": "github:angular/bower-angular@1.3.15",
+    "angular": "github:angular/bower-angular@1.4.0",
     "angular-mocks": "github:angular/bower-angular-mocks@1.3.15",
+    "angular-translate": "github:angular-translate/bower-angular-translate@2.7.2",
     "angular-ui-router": "github:angular-ui/ui-router@0.2.13",
-    "babel": "npm:babel@4.7.16",
-    "babel-runtime": "npm:babel-runtime@4.7.16",
-    "core-js": "npm:core-js@0.9.13",
+    "babel": "npm:babel-core@5.4.7",
+    "babel-runtime": "npm:babel-runtime@5.4.7",
+    "core-js": "npm:core-js@0.9.14",
     "css": "github:systemjs/plugin-css@0.1.9",
     "text": "github:systemjs/plugin-text@0.0.2",
+    "github:angular-translate/bower-angular-translate@2.7.2": {
+      "angular": "github:angular/bower-angular@1.4.0"
+    },
     "github:angular-ui/ui-router@0.2.13": {
-      "angular": "github:angular/bower-angular@1.3.15"
+      "angular": "github:angular/bower-angular@1.4.0"
     },
     "github:angular/bower-angular-mocks@1.3.15": {
-      "angular": "github:angular/bower-angular@1.3.15"
+      "angular": "github:angular/bower-angular@1.4.0"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -109,6 +113,11 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:core-js@0.9.13": {
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "process": "github:jspm/nodelibs-process@0.1.1",
+      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
+    },
+    "npm:core-js@0.9.14": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
